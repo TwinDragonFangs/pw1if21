@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* Setengah lebar container */
+}
+
+.image {
+    height: 200px; /* Tinggi gambar */
+    background-size: cover;
+    background-position: center;
+}
+
+.image1 {
+    background-image: url('img/Doraemon\ Nobita\ and\ the\ Birth\ of\ Japan.jpg'); /* Ganti dengan gambar yang sesuai */
+    width: 50%;
+}
+
+.image2 {
+    background-image: url('img/Doraemon\ Nobita\ no\ uchuu\ eiyuuki.jpg'); /* Ganti dengan gambar yang sesuai */
+    width: 25%; /* Separuh dari lebar container */
+}
+
+.image3 {
+    background-image: url('img/Doraemon\ Nobita\'s\ Chronicle\ of\ the\ Moon\ Exploration.jpg'); /* Ganti dengan gambar yang sesuai */
+    width: 25%; /* Separuh dari lebar container */
+}
+
+.image4 {
+    background-image: url('img/Doraemon\ Nobita\'s\ Little\ Star\ Wars.jpg'); /* Ganti dengan gambar yang sesuai */
+    width: 25%; /* Separuh dari lebar container */
+}
+
+.image5 {
+    background-image: url('img/Doraemon\ Nobita\'s\ Little\ Star\ Wars.jpg'); /* Ganti dengan gambar yang sesuai */
+    width: 25%; /* Separuh dari lebar container */
+}
+
+.image6 {
+    background-image: url('img/Doraemon\ Nobita\'s\ Sky\ Utopia.jpg'); /* Ganti dengan gambar yang sesuai */
+    width: 25%; /* Separuh dari lebar container */
+}
+
+/* Atur tata letak ulang untuk tampilan responsif */
+@media screen and (max-width: 768px) {
+    .column {
+        width: 100%; /* Gambar akan menempati seluruh lebar container */
+    }
+
+    .image {
+        width: 50%; /* Dua gambar per baris */
+    }
+}

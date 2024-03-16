@@ -1,0 +1,371 @@
+html, body {
+    overflow-x: hidden;
+    background-color: #132043;
+    color: white;
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 150;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    padding-left: 20px;
+  }
+  
+  .backlayout {
+      background-image: url(img/Background.webp);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding-bottom: 30px;
+      width: 100%;
+      padding-top: 30px;
+  }
+  
+  .backlayoutfoot {
+      background-image: url(img/Background\ foot.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+      padding-top: 30px;
+      width: 100%;
+      max-height: 400px;
+  }
+  
+  .h3 {
+      padding-left: 40px;
+  }
+  
+  .example input[type=text] {
+      border-radius: 25px;
+      padding: 10px;
+      flex: 1;
+      border: 1px solid;
+     }
+  
+  .container2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     }
+  
+     .fclass {
+      display: flex;
+      width: 97%;
+     }
+  
+  .sign {
+      display: inline-block;
+      white-space: nowrap;
+      border-radius: 5px;
+      border: thin solid plum;
+      margin-left: 50px;
+      padding: 10px 20px 10px 20px;
+      background: plum;
+      color: white;
+  }
+  
+  .bgro {
+      background-color: #132043;
+      width: 100%;
+  }
+  
+  .img-rounded1 {
+      /* top-left top-right bottom-right bottom-left */
+      border-radius: 0% 0% 0% 0%;
+      }
+  
+  
+  .bg-primary {
+      background-color: #fdf0d1;
+  }
+  
+  h1 {
+      font-family: "Merriweather Sans", sans-serif;
+      font-size: 2.5em;
+      color: white;
+      padding-left: 30px;
+      line-height: 30px;
+      padding-top: 50px;
+  }
+  
+  p {
+      font-size: 15px;
+  }
+  
+  .p1 {
+      font-size: 2em;
+      padding-left: 30px;
+  }
+  
+  .pf {
+      display: flex;
+      align-items: flex-start;
+      text-align: left;
+      max-width: 50%;
+  }
+  
+  .ul2 {
+      float: right;
+      
+      gap: 1.5rem;
+    }
+  
+  
+  .h21 {
+      padding-left: 30px;
+  }
+  
+  h2 {
+      font-size: 15px;
+      font-family: "Source Sans Pro",Arial,sans-serif;
+      color: white;
+  }
+  
+  h3 {
+      font-size: 25px;
+  }
+  
+  .inforpendaf {
+      padding-left: 40px;
+      line-height: 100%;
+  }
+  
+  .container {
+      display: flex;
+      align-items: flex-start; /* Menyusun elemen ke atas */
+  }
+  
+  .left-section {
+      max-width: 50%;
+      
+      margin-right: 5%; /* Jarak antara left section dan right section */
+  }
+  
+  .right-section {
+      flex: 1; /* Memenuhi sisa ruang kosong di baris */
+  }
+  
+  .h2npm {
+      overflow: hidden; /* Mengatur agar konten yang melebihi lebar container terpotong */
+      white-space: nowrap; /* Mengatur agar teks tidak dibungkus (tidak melakukan wrapping) */
+      text-overflow: ellipsis; /* Mengatur agar teks yang terpotong ditandai dengan titik tiga (...) */
+      width: 95%;
+    }
+  
+  .col2 {
+      width: 50%;
+      float: left;
+  }
+  
+  .col {
+      width: 25%;
+      float: right;
+  }
+  
+  .containertop {
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* Setengah lebar container */
+  }
+  
+  .col3 {
+    width: 16.6%;
+  }
+  
+  .image2 {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .img-responsive {
+      width: 90%;
+  }
+  
+  .text-center {
+      text-align: center;
+  }
+  
+  .text-left {
+      text-align: left;
+  }
+  
+  .img-rounded {
+      /* top-left top-right bottom-right bottom-left */
+      border-radius: 2% 2% 2% 2%;
+      }
+  
+      .row::after {
+          content: "";
+          clear: both;
+          display: flex;
+      }
+  
+      .rounded {
+          text-align: left;
+      }
+  
+      nav a {
+          font-size: 14px;
+          font-weight: bolder;
+          text-decoration: none;
+      
+          color: white;
+        }
+      
+        nav a:hover {
+       font-weight: 0;
+        }
+  
+        nav ul {
+          padding-inline: 2rem;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 1.5rem;
+        }
+  
+        .lif {
+          font-size: 15px;
+          padding: 5px;
+        }
+  
+        nav li {
+          list-style-type: none;
+        }
+        
+        .liclass {
+          padding-inline-start: 47%;
+        }
+  
+        nav {
+          padding: 0.1px;
+  
+          position: sticky;
+          top: 0;
+        }
+  
+        .head1 {
+          width: 13%;
+          position: relative;
+      }
+  
+      li.dropdown {
+      display: inline-block;
+  
+      }
+  
+  .dropdown:hover .isi-dropdown {
+      display: block;
+      width: 10%;
+      padding-inline: 35px;
+      padding-bottom: 45px;
+      line-height: 30px;
+      height: 90px;
+  }
+  
+  .dropdown:hover .isi-dropdown1 {
+      display: block;
+      width: 10%;
+      padding-inline: 35px;
+      padding-bottom: 30px;
+      line-height: 25px;
+      height: 10px;
+  }
+  
+  .isi-dropdown {
+      padding-top: 10px;
+      position: absolute;
+      display: none;
+      z-index: 1;
+      background-color: white;
+  }
+  
+  .isi-dropdown1 {
+      padding-top: 10px;
+      position: absolute;
+      display: none;
+      z-index: 1;
+      background-color: white;
+  }
+  .isi-dropdown a {
+      color: black;
+      text-decoration: none;
+      display: block;
+  }
+  
+  .isi-dropdown a:hover {
+      background-color: whitesmoke;
+  }
+  
+  .isi-dropdown1 a {
+      color: black;
+  }
+  
+  .isi-dropdown1 a:hover {
+      background-color: whitesmoke;
+  }
+  
+  footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+  
+  .fotocon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Mulai dari kiri ke kanan */
+  }
+  
+   /* Perangkat dengan layar lebar 768px dan dibawahnya */
+  @media screen and (max-width: 768px) {
+   
+    .image {
+        width: 50%; /* 2 gambar per baris di tablet */
+    }
+  
+    nav ul {
+      width: 100%;
+    }
+  
+  .liclass {
+    padding-inline-start: 15%;
+  }
+  
+    .fclass {
+      width: 96%;
+    }
+  
+    .backlayout {
+      background-position: center;
+    }
+  
+    .column {
+      width: 100%; /* Gambar akan menempati seluruh lebar container */
+  }
+  
+  .image2 {
+      width: 50%; /* Dua gambar per baris */
+  }
+
+  .dropdown:hover .isi-dropdown {
+    padding-bottom: 45px;
+    width: 15%;
+  }
+
+  .dropdown:hover .isi-dropdown1 {
+    padding-bottom: 30px;
+    width: 15%;
+  }
+
+  .sign {
+    margin-bottom: 10px;
+  }
+
+  }
